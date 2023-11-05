@@ -35,18 +35,60 @@ body{
 }
 
 .Thead{
-    display: block;
+    display: flex;
     background-color: #1c8e90;
     color: #fff;
     height: 40px;
     width:600px ;
-    margin: 0;
+    margin: 0 ;
     border: 0;
     border-radius: 10px 10px 0 0;
+
+    padding: 13px;
+   
 
     
     
 }
+.Thead .animate-charcter{
+    margin: 0;
+    border: 0;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    
+}
+.icon{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%; /* Hace que los iconos sean circulares */
+    margin-right: 10px; /* Agrega margen a la derecha para espaciar los iconos */
+    transition: background-color 0.2s; /* Transición para el hover */
+ }
+ .icon:hover {
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+}
+.icon.blue{
+    background-color: #ba1e4a; /* Cambia el color de fondo según tus preferencias */
+
+}
+.icon.red{
+    background-color: #c39304; /* Cambia el color de fondo según tus preferencias */
+
+}.icon.yellow{
+    background-color: #39ad15; /* Cambia el color de fondo según tus preferencias */
+}
+.icon.red:hover {
+    background-color: #75132f; 
+}
+.icon.blue:hover {
+    background-color: #5e8070; 
+}.icon.icon.yellow:hover {
+    background-color: #7f6004; 
+}
+
 .bubble {
     position: absolute;
     width: 200px;
@@ -159,3 +201,87 @@ body{
     filter: blur(8px);
     transform: rotate(330deg);
   }
+
+  .input-container {
+   
+    
+    display: flex;
+    height: 90%;
+    width: 95%;
+   border: 0;
+    margin: 0;
+   padding: 30px;
+    
+   
+    font-size: 1.6rem;
+    color: white;
+    justify-content: center;
+    
+    
+   
+
+    
+    
+   
+  }
+
+
+ 
+  
+  .input-container .bash-text .coment {
+    
+    color: rgb(190, 174, 174);
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    width: 90%;
+    height: 10%;
+    align-items: space-around;
+  }
+  
+  .input-container .bash-text .user {
+    color: #9225a3;
+  }
+  
+  .input-container .bash-text .vm {
+    color: #2DD4BF;
+  }
+  
+  .input-container .bash-text .char {
+    color: #A78BFA;
+  }
+
+
+  .animate-charcter
+  {
+     text-transform: uppercase;
+    background-image: linear-gradient(
+      -225deg,
+      #7ddffa 10%,
+      #92FE9D 29%,
+      #92FE9D 67%,
+      #00C9FF 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 4s linear infinite;
+    display: inline-block;
+        font-size: 16px;
+  }
+  
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+  
+
+
+  
+   
