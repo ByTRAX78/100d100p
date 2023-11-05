@@ -58,6 +58,7 @@ body{
     display: flex;
     justify-content: center;
     font-size: 1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
 .icon{
@@ -65,20 +66,19 @@ body{
     height: 15px;
     border-radius: 50%; /* Hace que los iconos sean circulares */
     margin-right: 10px; /* Agrega margen a la derecha para espaciar los iconos */
-    transition: background-color 0.2s; /* Transición para el hover */
+    transition: background-color 0.2s; 
  }
  .icon:hover {
     cursor: pointer; /* Cambia el cursor al pasar el mouse */
 }
 .icon.blue{
-    background-color: #ba1e4a; /* Cambia el color de fondo según tus preferencias */
+    background-color: #ba1e4a; 
 
 }
 .icon.red{
-    background-color: #c39304; /* Cambia el color de fondo según tus preferencias */
-
+    background-color: #c39304; 
 }.icon.yellow{
-    background-color: #39ad15; /* Cambia el color de fondo según tus preferencias */
+    background-color: #39ad15; 
 }
 .icon.red:hover {
     background-color: rgb(228, 225, 52); 
