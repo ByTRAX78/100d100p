@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   box-sizing: border-box;
+   background-image: url('img/fondo2.jpg');
+   background-size: cover; 
+   background-position: center center;
+   backdrop-filter: blur(7px);
+   
+
+}
+
+.Terminal{
+    width: 690px; 
+  height: 620px;/*320px*/
+    
+    padding: 0.5rem;
+    background: linear-gradient(315deg,#03a9f4,#ff0058);
+    
+    border-radius: 8px;
+    backdrop-filter: blur(5px);
+  
+    border-bottom: 3px solid rgba(255, 255, 255, 0.440);
+    border-left: 2px  rgba(255, 255, 255, 0.545) outset;
+    box-shadow: -40px 50px 30px rgba(0, 0, 0, 0.280);
+    transform: skewX(0deg);
+     overflow: hidden;
+    
+   
+
+    transition: .9s;
+    
+}
+.Terminal:hover {
+    width: 690px;
+    height: 620px;
+    transform: skew(0deg);
+    transition: .6s;
+  }
+
+.Terminal:hover .texto  {
+    margin: 0 0 60px 0;
+    padding: 0;
+
+    font-size: 30px;
+    text-align: center;
+    border: 0;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    text-shadow: 10px 10px 6px rgba(0, 0, 0, 0.573);
+    color: rgb(0, 0, 0);
+    transition: .6s;
+    /*margin: 0px;
+    width: 100%;
+    height: 50%;
+    transform: skew(0deg);
+    color: rgb(0, 0, 0);
+    text-shadow: 7px 7px 7px rgba(0, 0, 0, 0.573);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;*/
+  }
+ 
+  
+  .Terminal:hover .contenido {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 100%;
+    height: 57%;
+    display: flex;
+    align-items: flex-start;
+    transition: .6s;
+   
+  }
+  .Terminal:hover .contenido img {
+    box-shadow: -10px 30px 20px rgba(0, 0, 0, 0.280);
+    transition:  0.6s;
+  }
+
+
+ 
+
+.contenido{
+    padding: 0;
+    margin: 0 0 15px 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    transition: .6s;
+    
+    
+}
+.texto{
+    color: rgb(255, 255, 255);
+    margin:20px;
+    font-size: 30px;
+    text-align: center;
+    border: 0;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    text-shadow: 10px 10px 6px rgba(0, 0, 0, 0.573);
+    transition: .6s;
+}
+.texto p{
+    font-size: 30px;
+   text-align: center;
+    
+    color: white;
+    text-shadow: 10px 10px 7px rgba(0, 0, 0, 0.573);
+    transition: .6s;
+}
+
+.contenido  img{
+display: flex;
+padding: 0;
+margin: 0;
+border: 0;
+    width: 300px; /* Establece el ancho al 50% del tamaño original */
+    height: 300px; /* Establece el alto al 50% del tamaño original */
+    border-radius: 8px;
+    transition:  0.6s; /* Aplicar la transición a la propiedad transform */
+ 
+  box-shadow: -10px 30px 20px rgba(0, 0, 0, 0.280);
+    
+}
+.leng {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+    border: 0;
+        width: 100%; /* Establece el ancho al 50% del tamaño original */
+        height: 100%; /* Establece el alto al 50% del tamaño original */
+       
+        transition:  0.6s; /* Aplicar la transición a la propiedad transform */
+        
+       
+    }
+
+.Terminal:hover  .leng {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    padding: 0;
+    margin: 0;
+    border: 0;
+        width: 100%; /* Establece el ancho al 50% del tamaño original */
+        height: 100%; /* Establece el alto al 50% del tamaño original */
+        border-radius: 8px;
+        transition:  0.6s; /* Aplicar la transición a la propiedad transform */
+        
+        
+ 
+    }
+    .leng img{
+   
+        width: 60px; /* Establece el ancho al 50% del tamaño original */
+        height: 60px;  
+        box-shadow: -10px 30px 20px rgba(0, 0, 0, 0.280);
+        border-radius: 8px;
+    }
+
+    .leng .imagenj{
+   
+        width: 70px; /* Establece el ancho al 50% del tamaño original */
+        height: 60px;  
+    }
+    .leng .imagenc{
+   
+        width: 45px; /* Establece el ancho al 50% del tamaño original */
+        height: 60px;  
+    }
+    .leng .imagencc{
+   
+        width: 50px; /* Establece el ancho al 50% del tamaño original */
+        height: 60px;  
+    }
+    .alt p{
+margin:  0 20px 30px 20px;
+color: rgb(255, 255, 255);
+   
+    font-size: 30px;
+    text-shadow: 10px 10px 6px rgba(0, 0, 0, 0.573);
+    transition: .6s;
+    }
+    
+    
+
