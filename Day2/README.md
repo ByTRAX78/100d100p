@@ -11,7 +11,7 @@ Vamos a crear una página web en donde este nuestra tarjeta de presentación con
 
  
 
-![Imagen2.png](https://i.postimg.cc/QdGvR5rk/Imagen2.png)
+
 
 
 ## Tecnologias usadas
