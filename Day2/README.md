@@ -3,10 +3,15 @@
 ## Introduccion
 
 Vamos a crear una página web en donde este nuestra tarjeta de presentación con CSS y HTML
+
 ## Imagen 
 
-[![Imagen1.png](https://i.postimg.cc/28BPcGgS/Imagen1.png)](https://postimg.cc/tYpS73XK)
-[![Imagen2.png](https://i.postimg.cc/QdGvR5rk/Imagen2.png)](https://postimg.cc/HVzSMrnV)
+![Imagen1.png](https://i.postimg.cc/28BPcGgS/Imagen1.png)
+
+
+ 
+
+![Imagen2.png](https://i.postimg.cc/QdGvR5rk/Imagen2.png)
 
 
 ## Tecnologias usadas
@@ -15,4 +20,4 @@ Vamos a crear una página web en donde este nuestra tarjeta de presentación con
 
 ### Authors
 
-- [@Cglez18](https://github.com/Cglez18)
+- [@ByTRAX78](https://github.com/ByTRAX78)
