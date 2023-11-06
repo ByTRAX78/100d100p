@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -41,26 +42,26 @@ body{
 }
 .Terminal:hover {
     width: 690px;
-    height: 680px;
+    height: 750px;
     transform: skew(0deg);
     transition: .6s;
   }
 
 .Terminal:hover .texto  {
     margin: 0 0 60px 0;
-    padding: 0;
-
+    padding: 0 10px 0 10px;
+    
     font-size: 30px;
     text-align: center;
     border: 0;
-    height: 80%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     justify-content: space-around;
     text-shadow: 10px 10px 6px rgba(0, 0, 0, 0.573);
-    color: rgb(0, 0, 0);
+    color: #cfef00;
     transition: .6s;
     /*margin: 0px;
     width: 100%;
@@ -76,11 +77,12 @@ body{
  
   
   .Terminal:hover .contenido {
+   
     padding: 0;
     margin: 0;
     border: 0;
     width: 100%;
-    height: 57%;
+    height: 42%;
     display: flex;
     align-items: flex-start;
     transition: .6s;
@@ -95,6 +97,7 @@ body{
  
 
 .contenido{
+   
     padding: 0;
     margin: 0 0 15px 0;
     border: 0;
@@ -106,11 +109,13 @@ body{
     
     
 }
+
 .texto{
+   
     color: rgb(255, 255, 255);
     margin:20px;
     font-size: 30px;
-    text-align: center;
+    
     border: 0;
     height: 90%;
     display: flex;
@@ -121,9 +126,14 @@ body{
     text-shadow: 10px 10px 6px rgba(0, 0, 0, 0.573);
     transition: .6s;
 }
+
+.texto h1{
+    text-align: center;
+}
 .texto p{
+    
     font-size: 30px;
-   text-align: center;
+    text-align: center;
    color:#ffffff;
    
     text-shadow: 10px 10px 7px rgba(0, 0, 0, 0.573);
@@ -165,7 +175,7 @@ border: 0;
     justify-content: space-around;
     align-items: start;
     padding: 0;
-    margin: 0;
+    margin: 30px 0 50px 0;
     border: 0;
         width: 100%; /* Establece el ancho al 50% del tamaño original */
         height: 100%; /* Establece el alto al 50% del tamaño original */
@@ -214,7 +224,7 @@ color: #cfef00;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin: 10px;
+        margin: 36px 10px 10px 10px;
         align-items: center;
     }
  
@@ -317,6 +327,7 @@ color: #cfef00;
 .c p{
     color: rgb(255, 255, 255);
   padding: 0 0 30px 0;
+  margin: 0 0 30px 0;
     font-size: 30px;
     text-shadow: 10px 10px 6px rgba(0, 0, 0, 0.573);
     transition: .6s;
