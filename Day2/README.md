@@ -6,9 +6,9 @@ Vamos a crear una página web en donde este nuestra tarjeta de presentación con
 
 ## Imagen 
 
-![Imagen1.png](https://i.postimg.cc/28BPcGgS/Imagen1.png)
+[![Imagen1.png](https://i.postimg.cc/25fssWnN/Imagen1.png)](https://postimg.cc/gxNtRnMg)
 
-
+[![Imagen2.png](https://i.postimg.cc/nhq5GLgR/Imagen2.png)](https://postimg.cc/PCr2tdtY)
  
 
 
