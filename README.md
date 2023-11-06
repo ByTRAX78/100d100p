@@ -1,9 +1,6 @@
 # 100 DÍAS 100 PROYECTOS 💻
 
-<div align="right">
-  <img src="https://img.shields.io/github/stars/xVrzBx/100Days100Proyects?style=for-the-badge&logo=Github&labelColor=%23131321&color=%23f69a05">
- <img src="https://img.shields.io/github/watchers/xVrzBx/100Days100Proyects?style=for-the-badge&logo=Github&labelColor=%23131321&color=%231185ff">
-</div>
+
 <br>
 
 
