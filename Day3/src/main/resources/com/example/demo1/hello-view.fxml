@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<VBox alignment="TOP_CENTER" prefHeight="502.0" prefWidth="670.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.HelloController">
+   <children>
+      <Pane prefHeight="1.0" prefWidth="670.0">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="file:/C:/Users/adria/IdeaProjects/demo1/src/main/resources/imagenes/fondo.jpg" />
+               </source>
+            </ImageInput>
+         </effect>
+      </Pane>
+      <Pane prefHeight="502.0" prefWidth="670.0">
+         <children>
+            <SplitMenuButton id="selector1" fx:id="principal" layoutX="54.0" layoutY="129.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="247.0" text="Seleccionar">
+              <items>
+                <MenuItem fx:id="mxn" mnemonicParsing="false" text="MXN" />
+                <MenuItem fx:id="usd" mnemonicParsing="false" text="USD" />
+                  <MenuItem fx:id="eur" mnemonicParsing="false" text="EUR" />
+              </items>
+               <font>
+                  <Font name="Microsoft YaHei" size="25.0" />
+               </font>
+            </SplitMenuButton>
+            <Button contentDisplay="CENTER" layoutX="274.0" layoutY="401.0" mnemonicParsing="false" onMouseClicked="#clean" prefHeight="42.0" prefWidth="138.0" text="Clean" textAlignment="CENTER">
+               <font>
+                  <Font name="Malgun Gothic Bold" size="34.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="0.004854368932038833" endY="1.0" startY="0.5">
+                     <stops>
+                        <Stop color="#15909e" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <effect>
+                  <Reflection fraction="0.3" />
+               </effect>
+            </Button>
+            <Label layoutX="154.0" layoutY="31.0" text="Conversor de divisas">
+               <font>
+                  <Font name="Modern No. 20" size="47.0" />
+               </font>
+               <textFill>
+                  <LinearGradient cycleMethod="REFLECT" endX="1.0" endY="0.33009708737864074" startX="0.024271844660194174">
+                     <stops>
+                        <Stop color="#c2f5ff" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <TextField fx:id="val1" disable="true" layoutX="396.0" layoutY="129.0" prefHeight="51.0" prefWidth="211.0" promptText="Ingrese un valor">
+               <effect>
+                  <Lighting bumpInput="$null" diffuseConstant="1.32" specularConstant="1.5" specularExponent="20.49">
+                     <light>
+                        <Light.Distant color="#daf7ff" />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="val2" disable="true" layoutX="396.0" layoutY="251.0" prefHeight="51.0" prefWidth="211.0" promptText="Ingrese un valor">
+               <effect>
+                  <Lighting bumpInput="$null">
+                     <light>
+                        <Light.Distant color="#a4ffaa" />
+                     </light>
+                  </Lighting>
+               </effect>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </TextField>
+            <SplitMenuButton fx:id="principal1" layoutX="54.0" layoutY="250.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="247.0" text="Seleccionar">
+               <font>
+                  <Font name="Microsoft YaHei" size="25.0" />
+               </font>
+               <items>
+                  <MenuItem fx:id="mxn1" mnemonicParsing="false" text="MXN" />
+                  <MenuItem fx:id="usd1" mnemonicParsing="false" text="USD" />
+                  <MenuItem fx:id="eur1" mnemonicParsing="false" text="EUR" />
+               </items>
+            </SplitMenuButton>
+         </children>
+      </Pane>
+   </children>
+</VBox>
