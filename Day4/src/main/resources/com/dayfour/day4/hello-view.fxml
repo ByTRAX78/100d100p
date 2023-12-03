@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<VBox id="principal" prefHeight="248.0" prefWidth="615.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.dayfour.day4.HelloController">
+   <children>
+      <Pane id="pane" prefHeight="268.0" prefWidth="615.0">
+         <children>
+            <TextField id="textone" fx:id="val1" layoutX="38.0" layoutY="68.0" prefHeight="38.0" prefWidth="182.0" promptText="Result" />
+            <TextField fx:id="val2" layoutX="324.0" layoutY="68.0" prefHeight="38.0" prefWidth="182.0" promptText="Result" />
+            <Button fx:id="Copy2" layoutX="515.0" layoutY="68.0" mnemonicParsing="false" onAction="#copy2" prefHeight="38.0" prefWidth="63.0" text="Copy" />
+            <Button id="clean" fx:id="clean" layoutX="262.0" layoutY="154.0" mnemonicParsing="false" onAction="#clean" prefHeight="46.0" prefWidth="99.0" text="Clean" />
+            <Button fx:id="Copy1" layoutX="237.0" layoutY="68.0" mnemonicParsing="false" onAction="#copy1" prefHeight="38.0" prefWidth="63.0" text="Copy" />
+         </children>
+      </Pane>
+   </children>
+</VBox>

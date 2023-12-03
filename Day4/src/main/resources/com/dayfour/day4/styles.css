@@ -1,0 +1,34 @@
+
+.button {
+    -fx-background-color: #38803B;
+    -fx-text-fill: white;
+    -fx-background-radius: 20; /* Redondea los bordes del fondo */
+    -fx-border-radius: 20; /* Redondea los bordes del borde */
+}
+.button#clean {
+    -fx-background-color: #1B6EBA;
+    -fx-text-fill: white;
+    -fx-background-radius: 60; /* Redondea los bordes del fondo */
+    -fx-border-radius: 60; /* Redondea los bordes del borde */
+}
+.button:hover {
+    -fx-background-color: #139518;
+}
+.button#clean:hover {
+    -fx-background-color: #0F477A;
+}
+.text-field{
+    -fx-shape: "M5.5 0 L100.5 0 C102.1569 0 103.5 1.3431458 103.5 3 L103.5 27 C103.5 28.656854 102.1569 30 100.5 30 L5.5 30 C3.8431458 30 2.5 28.656854 2.5 27 L2.5 3 C2.5 1.3431458 3.8431458 0 5.5 0 Z";
+    -fx-background-color: white;
+}
+
+.text-field:hover {
+    -fx-background-color: #e6e6e6;
+}
+#pane{
+    -fx-background-image: url('Img/color.jpg'); /* Ruta relativa a la carpeta Img */
+    -fx-background-size: cover; /* Otra opción: contain */
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+
+}
